@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+.navbar {
+  background-color:black !important;
+}
+
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color: #565387 !important;
+
+}
+
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.menu_active{
+
+
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+.navbar a:hover {
+  color:skyblue!important;
+}
+
+#header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 130px;
+  margin-left: 150px;
+}
+#header h1{
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 590;
+  color: black;
+}
+
+#header .brand-name {
+  color: aqua;
+}
+
+#header h2{
+  color: #565387;
+  font-size: 24px;
+}
+
+#header .btn{
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  display: inline-block;
+  padding: 10px 35px;
+  border-radius: 390px;
+  transition: 0.5s;
+  color:cadetblue;
+  border: 3px solid #3498db;
+  text-decoration: none;
+}
+.btn:hover{
+  background-color:#3498db;
+  color: #fff;
+}
+.header-img{
+  text-align:right;
+  margin-left: 320px;
+  margin-top: 100px;
+}
+
+
+#header .animated{
+  animation: up-down 1.5s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down {
+  100% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+  @keyframes up-down {
+    0% {
+      transform: translateY(50px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  
+}
+.background-image{
+  background-image: url(/src/pic.jpg);
+ 
+}
+
+footer{
+  padding: 5rem 0;
+  background-color: #182334;
+  color: #fff;
+  
+}
+
+footer h2{
+  color: #fff;
+  font-size: x-large;
+}
+footer li{
+  font-size: smaller;
+  list-style: none;
+  font-size: 1 rem;
+  font-weight:lighter ;
+  cursor: pointer;
+  margin: 0.4rem;
+
+}
+
+footer li:hover{
+  color: #fff;
+}
+footer .main-hero-para
+{
+  margin: 0;
+}
+
+  
+  
+
+
+.card-body:hover{
+  opacity: 0.3;
+  background: palegreen;
+  transform: scale(1.09);
+    transition-duration: 0.5s;
+}
+.my-5{
+  background-image: url(/src/pic.jpg);
+  
+
+}
+.card-body:hover
+{
+  background-color:#3498db;
+  color: #fff;
+}
+.btn-g{
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 25px;
+  border-radius: 190px;
+  transition: 0.5s;
+  color:cadetblue;
+  border: 2.9px solid #3498db;
+  text-decoration: none;
+}
+.btn-g:hover{
+  background-color:#3498db;
+  color: #fff;
+}
+body {
+  margin: 0;
+  
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
